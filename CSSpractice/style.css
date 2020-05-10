@@ -1,0 +1,92 @@
+
+   * {
+     background-color: sienna;
+   }
+
+#header-content {
+  border: solid green;
+  padding-left: 5px;
+}
+
+.main-content {
+  border: solid blue;
+  padding-left: 5px;
+
+}
+
+#aside-content {
+   border: solid red;
+   padding-left: 5px;
+}
+
+#footer-content {
+    border: solid brown;
+    padding-left: 5px;
+}
+
+[href$=".com"] {
+  border:solid green 5px;
+
+}
+
+a:link, a:visited {
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: hotpink;
+  text-decoration: dashed underline;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+  padding: 16px;
+}
+
+li:nth-child(odd) {
+  background-color: deepskyblue;
+  color: white;
+  font-weight: bold;
+}
+
+li:nth-child(even) {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+li.selected {
+  background-color: hotpink;
+}
+
+li.selected ~ li:nth-child(odd) {
+  background-color: orange;
+}
+
+
+
+.pract {
+  color: green;
+}
+
+
+#act {
+  color: red;
+}
+
+
+h6 {
+  color: yellow;
+}
+
+/* !important as a keyword that when added as a value to a selector will trump any specifity */
+h6 {
+  color: black !important;
+}

@@ -1,0 +1,57 @@
+
+/* this is a pseudo element selector that selects the first character of the element h1 */
+/* pseudo element selectors are preceded by to colons :: and are used to select part of the element */
+h1::first-letter {
+    font-size: 5rem;
+}
+
+/* this is a selector that targets the all the p elements */
+p {
+    color: white;
+    background-color: black;
+}
+
+/* this is a pseudo class that targets every other element p (odd or even) I can choose */
+p:nth-of-type(odd) {
+    color: red;
+    background-color: blue;
+}
+
+/* this is a presudo class that targets the first p element */
+p:first-of-type {
+    color: yellow;
+    background-color: green;
+}
+/*  this is pseudo class that targets the las p element */
+p:last-of-type {
+    color: pink;
+    background-color: purple;
+}
+
+/* this is a class selector that targets any elements that have this class */
+.second-heading {
+    color: aquamarine;
+    background-color: sienna;
+}
+
+/* this is an id selector that tartgets any element with this id */
+#final-footer {
+    color:orange;
+
+}
+
+
+
+a:link, a:visited {
+    color:deepskyblue;
+    text-decoration: none;
+}
+
+
+
+a:hover, a:active {
+    color: hotpink;
+    text-decoration: dashed underline;
+}
+
+ 

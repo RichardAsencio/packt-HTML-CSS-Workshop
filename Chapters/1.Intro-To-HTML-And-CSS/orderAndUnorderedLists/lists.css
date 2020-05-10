@@ -1,0 +1,24 @@
+#ordered-list {
+    font-family: cursive;
+    
+}
+
+#unordered-list{
+    font-weight: bold;
+}
+
+li {
+    display: block;
+    padding: 10px;
+    border: solid pink;
+}
+
+li:nth-child(3n-1) {
+    background: skyblue;
+    font-weight: bolder;
+}
+
+li:nth-child(3n) {
+    background: deepskyblue;
+    font-weight: ;
+}
