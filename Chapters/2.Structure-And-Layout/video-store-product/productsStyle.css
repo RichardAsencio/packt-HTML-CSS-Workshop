@@ -1,0 +1,37 @@
+header, nav, section, footer {
+    background: lightsalmon;
+    border-radius: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1:before, h2:before,
+h3:before, h4:before {
+    content: "<";
+}
+
+h1:after, h2:after, 
+h3:after, h4:after {
+    content: ">";
+}
+
+header,
+nav,
+section,
+footer {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  section h3 {
+    border: 2px solid white;
+    padding: 30px;
+    margin: 10px;
+  }

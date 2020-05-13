@@ -1,0 +1,70 @@
+/* header {
+    border: solid 5px black;
+}
+
+nav {
+    border: solid 5px green;
+}
+
+article {
+    border: solid 5px red;
+}
+
+section {
+    border: solid 4px blue;
+}
+
+aside {
+    border: solid 5px orange;
+}
+
+footer {
+    border: solid 5px aqua;
+} */
+
+
+header,
+nav,
+article,
+aside,
+footer {
+  background: #659494;
+  border-radius: 15px;
+  color: white;
+  font-family: arial, san-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 2px;
+}
+
+/* header:before,
+nav:before,
+article:before,
+aside:before,
+footer:before {
+     content: ‘<’;
+}
+
+header:after,
+nav:after,
+article:after,
+aside:after,
+footer:after {
+  content: ‘>’;
+} */
+
+article {
+  float: left;
+  margin-right: 20px;
+  width: 60%
+}
+
+aside {
+  float: left;
+  width: calc(40% - 140px);
+}
+
+footer {
+  clear: both;
+}

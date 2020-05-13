@@ -1,0 +1,38 @@
+/* section {
+    border: solid black 2px;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    border: solid orange 2px;
+    background-color: coral;    
+}
+
+div {
+    border: solid green 2px;
+    background-color: cadetblue;
+    flex-basis: 40%;
+}
+ */
+h3 {
+    border: solid 2px orange;
+}
+
+ section {
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    padding: 10px;
+    height: fit-content;
+
+
+  }
+  div {
+    border: solid black 1px;
+    flex-basis: 24%;
+    background-color: cadetblue;
+    width: 22px;
+  }

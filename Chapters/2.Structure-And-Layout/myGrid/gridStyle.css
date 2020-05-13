@@ -1,0 +1,32 @@
+section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: solid black 2px;
+    background-color: lightgrey;
+}
+
+
+/* section {
+    border: solid black 2px;
+    overflow: hidden;
+    background-color: lightgrey;
+} */
+
+/* h3 {
+    border: solid orange 2px;
+    text-align: center;
+    background-color: coral;
+    padding: 20px;
+    margin: 2px;
+} */
+
+div {
+    border: solid green 2px;
+    text-align: center;
+    /* float: left;
+    width: 235px;
+    padding: 25px;
+    margin: 2.5px; */
+    background-color: cadetblue;
+    
+}
